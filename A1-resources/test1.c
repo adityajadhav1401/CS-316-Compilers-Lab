@@ -1,0 +1,4 @@
+int c;
+void main() {
+	
+}

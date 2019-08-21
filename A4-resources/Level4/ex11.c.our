@@ -1,0 +1,114 @@
+Program:
+   Procedure: main, Return Type: void
+
+            
+            
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 0)
+            
+         Asgn:
+            LHS (Name : b)
+            RHS (Num : 0)
+         IF : 
+         CONDITION (
+            Condition: NE
+               LHS (Name : a)
+               RHS (Num : 5))
+         THEN (
+         IF : 
+         CONDITION (
+            Condition: EQ
+               LHS (Name : a)
+               RHS (Num : 1))
+         THEN (
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 3))
+         ELSE (
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 10)))
+         DO (
+            
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 0))
+         WHILE CONDITION (
+            Condition: NOT
+               RHS (
+            Condition: EQ
+               LHS (Num : 1)
+               RHS (Num : 1)))
+         WHILE : 
+         CONDITION (
+            Condition: NE
+               LHS (Num : 1)
+               RHS (Num : 1))
+         BODY (
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 1))
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: EQ
+               LHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : a)
+               RHS (Num : 10)
+            LHS (Num : 5)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : b)
+               RHS (Num : 10)
+            LHS (Num : 6)
+            RHS (Num : 7)))
+               RHS (Num : 7)
+            LHS (Num : 15)
+            RHS (Num : 16))
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : a)
+               RHS (Num : 10)
+            LHS (Num : 5)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: EQ
+               LHS (Num : 7)
+               RHS (Num : 7)
+            LHS (Num : 15)
+            RHS (Num : 16)))
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: OR
+               LHS (
+            Condition: AND
+               LHS (
+            Condition: EQ
+               LHS (Name : a)
+               RHS (Num : 0))
+               RHS (
+            Condition: GE
+               LHS (Name : b)
+               RHS (Num : 0)))
+               RHS (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 0))
+            LHS (Num : 5)
+            RHS (Num : 6))

@@ -1,0 +1,18 @@
+Program:
+   Procedure: main, Return Type: void
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 1)
+         WHILE : 
+         CONDITION (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 6))
+         BODY (
+         Asgn:
+            LHS (Name : a)
+            RHS (
+            Arith: PLUS
+               LHS (Name : a)
+               RHS (Num : 1)))

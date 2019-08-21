@@ -1,0 +1,6 @@
+  Procedure: main
+  Intermediate Code Statements
+	iLoad:    	v0 <- 5
+	store:    	a_ <- v0
+	iLoad:    	v0 <- 3
+	store:    	b_ <- v0

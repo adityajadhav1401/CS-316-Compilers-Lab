@@ -1,0 +1,44 @@
+  Procedure: main
+  Intermediate Code Statements
+	iLoad:    	v0 <- 1
+	store:    	a <- v0
+	iLoad:    	v0 <- 1
+	store:    	b <- v0
+	load:    	v0 <- a
+	iLoad:    	t0 <- 5
+	slt:    	t1 <- v0 , t0
+	iLoad:    	v0 <- 40
+	iLoad:    	t0 <- 1
+	seq:    	t2 <- v0 , t0
+	load:    	v0 <- b
+	iLoad:    	t0 <- 0
+	sgt:    	t3 <- v0 , t0
+	and:    	v0 <- t2 , t3
+	iLoad:    	t0 <- 1
+	load:    	t2 <- a
+	iLoad:    	t3 <- 4
+	seq:    	t4 <- t2 , t3
+	not:    	t2 <- t4 , t0
+	and:    	t0 <- v0 , t2
+	or:    	v0 <- t1 , t0
+	load:    	t0 <- b
+	iLoad:    	t1 <- 10
+	sle:    	t2 <- t0 , t1
+	iLoad:    	t0 <- 4
+	iLoad:    	t1 <- 4
+	seq:    	t3 <- t0 , t1
+	and:    	t0 <- t2 , t3
+	iLoad:    	t1 <- 0
+	iLoad:    	t2 <- 5
+	sgt:    	t3 <- t1 , t2
+	and:    	t1 <- t0 , t3
+	or:    	t0 <- v0 , t1
+	iLoad:    	v0 <- 1
+	iLoad:    	t1 <- 5
+	slt:    	t2 <- v0 , t1
+	or:    	v0 <- t0 , t2
+	beq:    	v0 , zero : goto label0
+	iLoad:    	t0 <- 5
+	store:    	b <- t0
+
+label0:    	

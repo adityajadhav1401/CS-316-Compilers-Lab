@@ -1,0 +1,53 @@
+Evaluating Program
+   Global Variables (before evaluating):
+   Evaluating Procedure main
+      Local Variables (before evaluating):
+         a : undefined
+         b : undefined
+         c : undefined
+         d : undefined
+
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 3)
+         a : 3
+
+
+         Asgn:
+            LHS (Name : c)
+            RHS (Num : 4)
+         c : 4
+
+
+         Asgn:
+            LHS (Name : b)
+            RHS (Name : a)
+         b : 3
+
+
+         Asgn:
+            LHS (Name : d)
+            RHS (Name : c)
+         d : 4
+
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Name : d)
+         a : 4
+
+
+         Asgn:
+            LHS (Name : c)
+            RHS (Name : b)
+         c : 3
+
+
+
+      Local Variables (after evaluating):
+         a : 4
+         b : 3
+         c : 3
+         d : 4
+   Global Variables (after evaluating):

@@ -1,0 +1,9 @@
+	Token Name: INTEGER 	Token: int 	 Lineno: 1
+	Token Name: NAME 	Token: c 	 Lineno: 1
+	Token Name: META CHAR 	Token: ; 	 Lineno: 1
+	Token Name: VOID 	Token: void 	 Lineno: 2
+	Token Name: NAME 	Token: main 	 Lineno: 2
+	Token Name: META CHAR 	Token: ( 	 Lineno: 2
+	Token Name: META CHAR 	Token: ) 	 Lineno: 2
+	Token Name: META CHAR 	Token: { 	 Lineno: 2
+	Token Name: META CHAR 	Token: } 	 Lineno: 4

@@ -1,0 +1,33 @@
+	Token Name: VOID 	Token: void 	 Lineno: 3
+	Token Name: NAME 	Token: main 	 Lineno: 3
+	Token Name: META CHAR 	Token: ( 	 Lineno: 3
+	Token Name: META CHAR 	Token: ) 	 Lineno: 3
+	Token Name: META CHAR 	Token: { 	 Lineno: 4
+	Token Name: INTEGER 	Token: int 	 Lineno: 5
+	Token Name: NAME 	Token: a 	 Lineno: 5
+	Token Name: META CHAR 	Token: ; 	 Lineno: 5
+	Token Name: NAME 	Token: a 	 Lineno: 6
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 6
+	Token Name: NUM 	Token: 1 	 Lineno: 6
+	Token Name: META CHAR 	Token: ; 	 Lineno: 6
+	Token Name: DO 	Token: do 	 Lineno: 7
+	Token Name: IF 	Token: if 	 Lineno: 8
+	Token Name: META CHAR 	Token: ( 	 Lineno: 8
+	Token Name: NAME 	Token: a 	 Lineno: 8
+	Token Name: GREATER_THAN 	Token: > 	 Lineno: 8
+	Token Name: NUM 	Token: 0 	 Lineno: 8
+	Token Name: META CHAR 	Token: ) 	 Lineno: 8
+	Token Name: NAME 	Token: a 	 Lineno: 9
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 9
+	Token Name: NAME 	Token: a 	 Lineno: 9
+	Token Name: ARITHOP 	Token: + 	 Lineno: 9
+	Token Name: NUM 	Token: 1 	 Lineno: 9
+	Token Name: META CHAR 	Token: ; 	 Lineno: 9
+	Token Name: WHILE 	Token: while 	 Lineno: 10
+	Token Name: META CHAR 	Token: ( 	 Lineno: 10
+	Token Name: NAME 	Token: a 	 Lineno: 10
+	Token Name: LESS_THAN 	Token: < 	 Lineno: 10
+	Token Name: NUM 	Token: 6 	 Lineno: 10
+	Token Name: META CHAR 	Token: ) 	 Lineno: 10
+	Token Name: META CHAR 	Token: ; 	 Lineno: 10
+	Token Name: META CHAR 	Token: } 	 Lineno: 12

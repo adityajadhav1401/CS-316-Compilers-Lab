@@ -1,0 +1,23 @@
+Program:
+   Procedure: main, Return Type: void
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 1)
+         DO (
+         IF : 
+         CONDITION (
+            Condition: GT
+               LHS (Name : a)
+               RHS (Num : 0))
+         THEN (
+         Asgn:
+            LHS (Name : a)
+            RHS (
+            Arith: PLUS
+               LHS (Name : a)
+               RHS (Num : 1))))
+         WHILE CONDITION (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 6))

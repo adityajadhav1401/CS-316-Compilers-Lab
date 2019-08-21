@@ -1,0 +1,14 @@
+	Token Name: VOID 	Token: void 	 Lineno: 3
+	Token Name: NAME 	Token: main 	 Lineno: 3
+	Token Name: META CHAR 	Token: ( 	 Lineno: 3
+	Token Name: META CHAR 	Token: ) 	 Lineno: 3
+	Token Name: META CHAR 	Token: { 	 Lineno: 4
+	Token Name: INTEGER 	Token: int 	 Lineno: 5
+	Token Name: NAME 	Token: a 	 Lineno: 5
+	Token Name: META CHAR 	Token: ; 	 Lineno: 5
+	Token Name: NAME 	Token: a 	 Lineno: 6
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 6
+	Token Name: NUM 	Token: 1 	 Lineno: 6
+	Token Name: META CHAR 	Token: ; 	 Lineno: 6
+	Token Name: DO 	Token: do 	 Lineno: 7
+	Token Name: IF 	Token: if 	 Lineno: 8

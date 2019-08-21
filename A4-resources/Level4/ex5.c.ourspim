@@ -1,0 +1,71 @@
+
+	.text 			# The .text assembler directive indicates
+	.globl main		# The following is the code (as oppose to data)
+main:				# .globl makes main know to the 
+				# outside of the program.
+# Prologue begins 
+	sw $fp, 0($sp)		# Save the frame pointer
+	sub $fp, $sp, 4		# Update the frame pointer
+
+	sub $sp, $sp, 12		# Make space for the locals
+# Prologue ends
+
+	li $v0, 0
+	sw $v0, 0($fp)
+	li $v0, 0
+	sw $v0, -4($fp)
+	j label1
+
+label0:    	
+	lw $v0, 0($fp)
+	li $t0, 5
+	sne $t2, $v0, $t0
+	beq $t2, $zero, label8 
+	j label3
+
+label2:    	
+	lw $v0, 0($fp)
+	li $t0, 1
+	seq $t4, $v0, $t0
+	beq $t4, $zero, label4 
+	li $v0, 3
+	sw $v0, 0($fp)
+	j label5
+
+label4:    	
+	lw $v0, 0($fp)
+	lw $t0, -4($fp)
+	seq $t5, $v0, $t0
+	beq $t5, $zero, label6 
+	li $v0, 10
+	sw $v0, 0($fp)
+	j label7
+
+label6:    	
+	li $v0, 1
+	sw $v0, -4($fp)
+
+label7:    	
+
+label5:    	
+
+label3:    	
+	lw $v0, -4($fp)
+	li $t0, 5
+	seq $t3, $v0, $t0
+	bne $t3, $zero, label2 
+
+label8:    	
+
+label1:    	
+	lw $v0, 0($fp)
+	li $t0, 10
+	seq $t1, $v0, $t0
+	bne $t1, $zero, label0 
+
+# Epilogue Begins
+	add $sp, $sp, 12
+	lw $fp, 0($sp)  
+	jr        $31		# Jump back to the operating system.
+# Epilogue Ends
+

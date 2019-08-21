@@ -1,0 +1,63 @@
+Program:
+   Procedure: main, Return Type: void
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 1)
+         Asgn:
+            LHS (Name : b)
+            RHS (Num : 1)
+         IF : 
+         CONDITION (
+            Condition: OR
+               LHS (
+            Condition: OR
+               LHS (
+            Condition: OR
+               LHS (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 5))
+               RHS (
+            Condition: AND
+               LHS (
+            Condition: AND
+               LHS (
+            Condition: EQ
+               LHS (Num : 40)
+               RHS (Num : 1))
+               RHS (
+            Condition: GT
+               LHS (Name : b)
+               RHS (Num : 0)))
+               RHS (
+            Condition: NOT
+               RHS (
+            Condition: EQ
+               LHS (Name : a)
+               RHS (Num : 4)))))
+               RHS (
+            Condition: AND
+               LHS (
+            Condition: AND
+               LHS (
+            Condition: LE
+               LHS (Name : b)
+               RHS (Num : 10))
+               RHS (
+            Condition: EQ
+               LHS (Num : 4)
+               RHS (Num : 4)))
+               RHS (
+            Condition: GT
+               LHS (Num : 0)
+               RHS (Num : 5))))
+               RHS (
+            Condition: LT
+               LHS (Num : 1)
+               RHS (Num : 5)))
+         THEN (
+            
+         Asgn:
+            LHS (Name : b)
+            RHS (Num : 5))

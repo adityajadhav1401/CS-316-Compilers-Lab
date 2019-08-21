@@ -1,0 +1,132 @@
+	Token Name: VOID 	Token: void 	 Lineno: 1
+	Token Name: NAME 	Token: main 	 Lineno: 1
+	Token Name: META CHAR 	Token: ( 	 Lineno: 1
+	Token Name: META CHAR 	Token: ) 	 Lineno: 1
+	Token Name: META CHAR 	Token: { 	 Lineno: 2
+	Token Name: INTEGER 	Token: int 	 Lineno: 3
+	Token Name: NAME 	Token: a 	 Lineno: 3
+	Token Name: META CHAR 	Token: ; 	 Lineno: 3
+	Token Name: INTEGER 	Token: int 	 Lineno: 4
+	Token Name: NAME 	Token: b 	 Lineno: 4
+	Token Name: META CHAR 	Token: ; 	 Lineno: 4
+	Token Name: META CHAR 	Token: { 	 Lineno: 5
+	Token Name: META CHAR 	Token: { 	 Lineno: 6
+	Token Name: NAME 	Token: a 	 Lineno: 6
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 6
+	Token Name: NUM 	Token: 0 	 Lineno: 6
+	Token Name: META CHAR 	Token: ; 	 Lineno: 6
+	Token Name: META CHAR 	Token: } 	 Lineno: 6
+	Token Name: NAME 	Token: b 	 Lineno: 7
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 7
+	Token Name: NUM 	Token: 0 	 Lineno: 7
+	Token Name: META CHAR 	Token: ; 	 Lineno: 7
+	Token Name: META CHAR 	Token: } 	 Lineno: 8
+	Token Name: IF 	Token: if 	 Lineno: 9
+	Token Name: META CHAR 	Token: ( 	 Lineno: 9
+	Token Name: NAME 	Token: a 	 Lineno: 9
+	Token Name: NOT_EQUAL 	Token: != 	 Lineno: 9
+	Token Name: NUM 	Token: 5 	 Lineno: 9
+	Token Name: META CHAR 	Token: ) 	 Lineno: 9
+	Token Name: IF 	Token: if 	 Lineno: 10
+	Token Name: META CHAR 	Token: ( 	 Lineno: 10
+	Token Name: NAME 	Token: a 	 Lineno: 10
+	Token Name: EQUAL 	Token: == 	 Lineno: 10
+	Token Name: NUM 	Token: 1 	 Lineno: 10
+	Token Name: META CHAR 	Token: ) 	 Lineno: 10
+	Token Name: NAME 	Token: a 	 Lineno: 11
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 11
+	Token Name: NUM 	Token: 3 	 Lineno: 11
+	Token Name: META CHAR 	Token: ; 	 Lineno: 11
+	Token Name: ELSE 	Token: else 	 Lineno: 12
+	Token Name: NAME 	Token: a 	 Lineno: 13
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 13
+	Token Name: NUM 	Token: 10 	 Lineno: 13
+	Token Name: META CHAR 	Token: ; 	 Lineno: 13
+	Token Name: DO 	Token: do 	 Lineno: 14
+	Token Name: META CHAR 	Token: { 	 Lineno: 14
+	Token Name: NAME 	Token: a 	 Lineno: 15
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 15
+	Token Name: NUM 	Token: 0 	 Lineno: 15
+	Token Name: META CHAR 	Token: ; 	 Lineno: 15
+	Token Name: META CHAR 	Token: } 	 Lineno: 16
+	Token Name: WHILE 	Token: while 	 Lineno: 16
+	Token Name: META CHAR 	Token: ( 	 Lineno: 16
+	Token Name: NOT 	Token: ! 	 Lineno: 16
+	Token Name: META CHAR 	Token: ( 	 Lineno: 16
+	Token Name: NUM 	Token: 1 	 Lineno: 16
+	Token Name: EQUAL 	Token: == 	 Lineno: 16
+	Token Name: NUM 	Token: 1 	 Lineno: 16
+	Token Name: META CHAR 	Token: ) 	 Lineno: 16
+	Token Name: META CHAR 	Token: ) 	 Lineno: 16
+	Token Name: META CHAR 	Token: ; 	 Lineno: 16
+	Token Name: WHILE 	Token: while 	 Lineno: 17
+	Token Name: META CHAR 	Token: ( 	 Lineno: 17
+	Token Name: NUM 	Token: 1 	 Lineno: 17
+	Token Name: NOT_EQUAL 	Token: != 	 Lineno: 17
+	Token Name: NUM 	Token: 1 	 Lineno: 17
+	Token Name: META CHAR 	Token: ) 	 Lineno: 17
+	Token Name: NAME 	Token: a 	 Lineno: 18
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 18
+	Token Name: NUM 	Token: 1 	 Lineno: 18
+	Token Name: META CHAR 	Token: ; 	 Lineno: 18
+	Token Name: NAME 	Token: b 	 Lineno: 19
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 19
+	Token Name: META CHAR 	Token: ( 	 Lineno: 19
+	Token Name: NAME 	Token: a 	 Lineno: 19
+	Token Name: GREATER_THAN 	Token: > 	 Lineno: 19
+	Token Name: NUM 	Token: 10 	 Lineno: 19
+	Token Name: META CHAR 	Token: ? 	 Lineno: 19
+	Token Name: NUM 	Token: 5 	 Lineno: 19
+	Token Name: META CHAR 	Token: : 	 Lineno: 19
+	Token Name: NAME 	Token: b 	 Lineno: 19
+	Token Name: GREATER_THAN 	Token: > 	 Lineno: 19
+	Token Name: NUM 	Token: 10 	 Lineno: 19
+	Token Name: META CHAR 	Token: ? 	 Lineno: 19
+	Token Name: NUM 	Token: 6 	 Lineno: 19
+	Token Name: META CHAR 	Token: : 	 Lineno: 19
+	Token Name: NUM 	Token: 7 	 Lineno: 19
+	Token Name: META CHAR 	Token: ) 	 Lineno: 19
+	Token Name: EQUAL 	Token: == 	 Lineno: 19
+	Token Name: NUM 	Token: 7 	 Lineno: 19
+	Token Name: META CHAR 	Token: ? 	 Lineno: 19
+	Token Name: NUM 	Token: 15 	 Lineno: 19
+	Token Name: META CHAR 	Token: : 	 Lineno: 19
+	Token Name: NUM 	Token: 16 	 Lineno: 19
+	Token Name: META CHAR 	Token: ; 	 Lineno: 19
+	Token Name: NAME 	Token: b 	 Lineno: 20
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 20
+	Token Name: NAME 	Token: a 	 Lineno: 20
+	Token Name: GREATER_THAN 	Token: > 	 Lineno: 20
+	Token Name: NUM 	Token: 10 	 Lineno: 20
+	Token Name: META CHAR 	Token: ? 	 Lineno: 20
+	Token Name: NUM 	Token: 5 	 Lineno: 20
+	Token Name: META CHAR 	Token: : 	 Lineno: 20
+	Token Name: NUM 	Token: 7 	 Lineno: 20
+	Token Name: EQUAL 	Token: == 	 Lineno: 20
+	Token Name: NUM 	Token: 7 	 Lineno: 20
+	Token Name: META CHAR 	Token: ? 	 Lineno: 20
+	Token Name: NUM 	Token: 15 	 Lineno: 20
+	Token Name: META CHAR 	Token: : 	 Lineno: 20
+	Token Name: NUM 	Token: 16 	 Lineno: 20
+	Token Name: META CHAR 	Token: ; 	 Lineno: 20
+	Token Name: NAME 	Token: b 	 Lineno: 22
+	Token Name: ASSIGN_OP 	Token: = 	 Lineno: 22
+	Token Name: META CHAR 	Token: ( 	 Lineno: 22
+	Token Name: NAME 	Token: a 	 Lineno: 22
+	Token Name: EQUAL 	Token: == 	 Lineno: 22
+	Token Name: NUM 	Token: 0 	 Lineno: 22
+	Token Name: AND 	Token: && 	 Lineno: 22
+	Token Name: NAME 	Token: b 	 Lineno: 22
+	Token Name: GREATER_THAN_EQUAL 	Token: >= 	 Lineno: 22
+	Token Name: NUM 	Token: 0 	 Lineno: 22
+	Token Name: OR 	Token: || 	 Lineno: 22
+	Token Name: NAME 	Token: a 	 Lineno: 22
+	Token Name: LESS_THAN 	Token: < 	 Lineno: 22
+	Token Name: NUM 	Token: 0 	 Lineno: 22
+	Token Name: META CHAR 	Token: ) 	 Lineno: 22
+	Token Name: META CHAR 	Token: ? 	 Lineno: 22
+	Token Name: NUM 	Token: 5 	 Lineno: 22
+	Token Name: META CHAR 	Token: : 	 Lineno: 22
+	Token Name: NUM 	Token: 6 	 Lineno: 22
+	Token Name: META CHAR 	Token: ; 	 Lineno: 22
+	Token Name: META CHAR 	Token: } 	 Lineno: 23

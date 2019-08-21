@@ -1,0 +1,109 @@
+Evaluating Program
+   Global Variables (before evaluating):
+   Evaluating Procedure main
+      Local Variables (before evaluating):
+         a : undefined
+         b : undefined
+
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 0)
+         a : 0
+
+
+         Asgn:
+            LHS (Name : b)
+            RHS (Num : 0)
+         b : 0
+
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 10)
+         a : 10
+
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 0)
+         a : 0
+
+
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: EQ
+               LHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : a)
+               RHS (Num : 10)
+            LHS (Num : 5)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : b)
+               RHS (Num : 10)
+            LHS (Num : 6)
+            RHS (Num : 7)))
+               RHS (Num : 7)
+            LHS (Num : 15)
+            RHS (Num : 16))
+         b : 15
+
+
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: GT
+               LHS (Name : a)
+               RHS (Num : 10)
+            LHS (Num : 5)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: EQ
+               LHS (Num : 7)
+               RHS (Num : 7)
+            LHS (Num : 15)
+            RHS (Num : 16)))
+         b : 15
+
+
+         Asgn:
+            LHS (Name : b)
+            RHS (
+         Cond:
+            IF_ELSE
+            Condition: OR
+               LHS (
+            Condition: AND
+               LHS (
+            Condition: EQ
+               LHS (Name : a)
+               RHS (Num : 0))
+               RHS (
+            Condition: GE
+               LHS (Name : b)
+               RHS (Num : 0)))
+               RHS (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 0))
+            LHS (Num : 5)
+            RHS (Num : 6))
+         b : 5
+
+
+
+      Local Variables (after evaluating):
+         a : 0
+         b : 5
+   Global Variables (after evaluating):

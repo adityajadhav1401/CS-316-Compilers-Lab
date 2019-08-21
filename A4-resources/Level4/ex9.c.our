@@ -1,0 +1,24 @@
+Program:
+   Procedure: main, Return Type: void
+
+         Asgn:
+            LHS (Name : a)
+            RHS (Num : 1)
+         Asgn:
+            LHS (Name : b)
+            RHS (Num : 1)
+         IF : 
+         CONDITION (
+            Condition: OR
+               LHS (
+            Condition: LT
+               LHS (Name : a)
+               RHS (Num : 5))
+               RHS (
+            Condition: EQ
+               LHS (
+            Arith: DIV
+               LHS (Num : 4)
+               RHS (Num : 0))
+               RHS (Num : 1)))
+         THEN (
